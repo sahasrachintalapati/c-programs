@@ -8,8 +8,9 @@ scanf("%d",&n);
 printf ("Enter elements of array");
 for (i=0; i<n; i++)
 {
-scanf("%d", &a[i]);
+scanf("%d", (p+i));
 }
 printf ("The elements in array is %d", *(p+i));
 return 0;
 }
+
